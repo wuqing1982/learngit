@@ -6,3 +6,4 @@ Git is free software.
 
 you s, de 
 
+changed stage
