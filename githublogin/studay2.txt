@@ -1,0 +1,854 @@
+
+HE@DESKTOP-HAM36CU MINGW64 ~ (master)
+$ pwd
+/c/Users/HE
+
+HE@DESKTOP-HAM36CU MINGW64 ~ (master)
+$ /e/work
+bash: /e/work: Is a directory
+
+HE@DESKTOP-HAM36CU MINGW64 ~ (master)
+$ ls
+ 「开始」菜单@
+'3D Objects'/
+ AppData/
+'Application Data'@
+ CMB/
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ eclipse/
+ eclipse-installer/
+ Evernote/
+ Favorites/
+ Funshion/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{e4104314-bf1f-11e9-b9aa-488ad288415e}.TxR.0.regtrans-ms
+ NTUSER.DAT{e4104314-bf1f-11e9-b9aa-488ad288415e}.TxR.1.regtrans-ms
+ NTUSER.DAT{e4104314-bf1f-11e9-b9aa-488ad288415e}.TxR.2.regtrans-ms
+ NTUSER.DAT{e4104314-bf1f-11e9-b9aa-488ad288415e}.TxR.blf
+ NTUSER.DAT{e4104315-bf1f-11e9-b9aa-488ad288415e}.TM.blf
+ NTUSER.DAT{e4104315-bf1f-11e9-b9aa-488ad288415e}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{e4104315-bf1f-11e9-b9aa-488ad288415e}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ skb.kc
+ source/
+ Templates@
+ UIDowner/
+ Videos/
+ wc/
+'Yinxiang Biji'/
+
+HE@DESKTOP-HAM36CU MINGW64 ~ (master)
+$ ls -l
+total 20018
+lrwxrwxrwx 1 HE 197121      56  8月 15 13:46  「开始」菜单 -> '/c/Users/HE/AppData/Roaming/Microsoft/Windows/Start Menu'/
+drwxr-xr-x 1 HE 197121       0  8月 15 13:46 '3D Objects'/
+drwxr-xr-x 1 HE 197121       0  9月 20 00:37  AppData/
+lrwxrwxrwx 1 HE 197121      27  8月 15 13:46 'Application Data' -> /c/Users/HE/AppData/Roaming/
+drwxr-xr-x 1 HE 197121       0 11月 25 22:43  CMB/
+drwxr-xr-x 1 HE 197121       0  8月 15 13:46  Contacts/
+lrwxrwxrwx 1 HE 197121      55  8月 15 13:46  Cookies -> /c/Users/HE/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 HE 197121       0 11月 26 19:34  Desktop/
+drwxr-xr-x 1 HE 197121       0 11月 28 20:51  Documents/
+drwxr-xr-x 1 HE 197121       0 11月 20 00:23  Downloads/
+drwxr-xr-x 1 HE 197121       0 11月 23 02:44  eclipse/
+drwxr-xr-x 1 HE 197121       0 11月 23 02:22  eclipse-installer/
+drwxr-xr-x 1 HE 197121       0 10月  4 23:54  Evernote/
+drwxr-xr-x 1 HE 197121       0 11月 15 03:07  Favorites/
+drwxr-xr-x 1 HE 197121       0 11月 17 22:16  Funshion/
+drwxr-xr-x 1 HE 197121       0  8月 15 13:46  Links/
+lrwxrwxrwx 1 HE 197121      25  8月 15 13:46 'Local Settings' -> /c/Users/HE/AppData/Local/
+drwxr-xr-x 1 HE 197121       0  9月  2 10:05  MicrosoftEdgeBackups/
+drwxr-xr-x 1 HE 197121       0  8月 15 13:46  Music/
+lrwxrwxrwx 1 HE 197121      21  8月 15 13:46 'My Documents' -> /c/Users/HE/Documents/
+lrwxrwxrwx 1 HE 197121      63  8月 15 13:46  NetHood -> '/c/Users/HE/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+-rw-r--r-- 1 HE 197121 7864320 11月 18 03:02  NTUSER.DAT
+-rw-r--r-- 1 HE 197121 1980416  8月 15 13:46  ntuser.dat.LOG1
+-rw-r--r-- 1 HE 197121 2486272  8月 15 13:46  ntuser.dat.LOG2
+-rw-r--r-- 1 HE 197121 1048576 11月 18 09:29  NTUSER.DAT{e4104314-bf1f-11e9-b9aa-488ad288415e}.TxR.0.regtrans-ms
+-rw-r--r-- 1 HE 197121 1048576 11月 18 09:29  NTUSER.DAT{e4104314-bf1f-11e9-b9aa-488ad288415e}.TxR.1.regtrans-ms
+-rw-r--r-- 1 HE 197121 1048576 11月 18 09:29  NTUSER.DAT{e4104314-bf1f-11e9-b9aa-488ad288415e}.TxR.2.regtrans-ms
+-rw-r--r-- 1 HE 197121   65536 11月 18 09:29  NTUSER.DAT{e4104314-bf1f-11e9-b9aa-488ad288415e}.TxR.blf
+-rw-r--r-- 1 HE 197121   65536  8月 15 13:46  NTUSER.DAT{e4104315-bf1f-11e9-b9aa-488ad288415e}.TM.blf
+-rw-r--r-- 1 HE 197121  524288  8月 15 13:46  NTUSER.DAT{e4104315-bf1f-11e9-b9aa-488ad288415e}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 HE 197121  524288  8月 15 13:46  NTUSER.DAT{e4104315-bf1f-11e9-b9aa-488ad288415e}.TMContainer00000000000000000002.regtrans-ms
+-rw-r--r-- 1 HE 197121      20  8月 15 13:46  ntuser.ini
+drwxr-xr-x 1 HE 197121       0  8月 16 05:43  OneDrive/
+drwxr-xr-x 1 HE 197121       0  8月 15 13:47  Pictures/
+lrwxrwxrwx 1 HE 197121      63  8月 15 13:46  PrintHood -> '/c/Users/HE/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 HE 197121      52  8月 15 13:46  Recent -> /c/Users/HE/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 HE 197121       0  8月 15 13:46 'Saved Games'/
+drwxr-xr-x 1 HE 197121       0  8月 15 13:47  Searches/
+lrwxrwxrwx 1 HE 197121      52  8月 15 13:46  SendTo -> /c/Users/HE/AppData/Roaming/Microsoft/Windows/SendTo/
+-rw-r--r-- 1 HE 197121      16  9月 20 13:46  skb.kc
+drwxr-xr-x 1 HE 197121       0 11月 18 02:18  source/
+lrwxrwxrwx 1 HE 197121      55  8月 15 13:46  Templates -> /c/Users/HE/AppData/Roaming/Microsoft/Windows/Templates/
+drwxr-xr-x 1 HE 197121       0  8月 16 06:00  UIDowner/
+drwxr-xr-x 1 HE 197121       0  8月 15 13:46  Videos/
+drwxr-xr-x 1 HE 197121       0 11月 10 22:11  wc/
+drwxr-xr-x 1 HE 197121       0  8月 29 23:59 'Yinxiang Biji'/
+
+HE@DESKTOP-HAM36CU MINGW64 ~ (master)
+$ pwd
+/c/Users/HE
+
+HE@DESKTOP-HAM36CU MINGW64 ~ (master)
+$ cd /e/work
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ ls
+git.txt  m2.py  new.py      problem1.py  var.py
+m1.py    m3.py  new.py.bak  readme.txt
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ ls -l
+total 12
+-rw-r--r-- 1 HE 197121  372 11月 29 01:33 git.txt
+-rw-r--r-- 1 HE 197121  571 11月 29 00:20 m1.py
+-rw-r--r-- 1 HE 197121 1286 11月 29 01:04 m2.py
+-rw-r--r-- 1 HE 197121  342 11月 29 00:40 m3.py
+-rw-r--r-- 1 HE 197121   80 11月 29 04:07 new.py
+-rw-r--r-- 1 HE 197121   27 11月 29 04:06 new.py.bak
+-rw-r--r-- 1 HE 197121  206 11月 28 23:47 problem1.py
+-rw-r--r-- 1 HE 197121  114 11月 29 02:05 readme.txt
+-rw-r--r-- 1 HE 197121  142 11月 28 23:45 var.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ rm new.py.bak test.txt
+rm: cannot remove 'test.txt': No such file or directory
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ rename new.py.bak test.txt
+bash: rename: command not found
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ mv new.py.bak test.txt
+mv: cannot stat 'new.py.bak': No such file or directory
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ ls
+git.txt  m1.py  m2.py  m3.py  new.py  problem1.py  readme.txt  var.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   new.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git diff
+diff --git a/new.py b/new.py
+index e69de29..a5b9a4e 100644
+--- a/new.py
++++ b/new.py
+@@ -0,0 +1,3 @@
++IT那些P事沙龙群资料
++
++https://www.linuxidc.com/Linux/2019-08/160254.htm
+\ No newline at end of file
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git add new.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git commit -m "add some urls"
+[master b734ff8] add some urls
+ 1 file changed, 3 insertions(+)
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git log
+commit b734ff8573248b1b9ff2aeade095a89d87668389 (HEAD -> master)
+Author: Alex He <starhqking@163.com>
+Date:   Fri Nov 29 15:10:29 2019 +0800
+
+    add some urls
+
+commit addf17e9b3464c6e44744030914d24a234e84980
+Author: Alex He <starhqking@163.com>
+Date:   Fri Nov 29 02:07:13 2019 +0800
+
+    study stage concept
+
+commit d8be11b9ac797856c0d664d4d6a203eab8e65d27
+Author: Alex He <starhqking@163.com>
+Date:   Fri Nov 29 01:53:46 2019 +0800
+
+    add 2 word
+
+commit 2411fe9e30bbbdb8dd74147121b12019749c69fe
+Author: Alex He <starhqking@163.com>
+Date:   Fri Nov 29 01:47:18 2019 +0800
+
+    add 5 .py files
+
+commit e6b53edcfc5d1b2081c7b19c7ec211418fec8a55
+Author: Alex He <starhqking@163.com>
+Date:   Fri Nov 29 01:43:48 2019 +0800
+
+    减少了两句话
+
+commit 8d939c2a5869851cb97884416e56589205a520e1
+Author: Alex He <starhqking@163.com>
+Date:   Fri Nov 29 01:40:09 2019 +0800
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git log --pretty=oneline
+b734ff8573248b1b9ff2aeade095a89d87668389 (HEAD -> master) add some urls
+addf17e9b3464c6e44744030914d24a234e84980 study stage concept
+d8be11b9ac797856c0d664d4d6a203eab8e65d27 add 2 word
+2411fe9e30bbbdb8dd74147121b12019749c69fe add 5 .py files
+e6b53edcfc5d1b2081c7b19c7ec211418fec8a55 减少了两句话
+8d939c2a5869851cb97884416e56589205a520e1 changed readme.txt and git.txt
+f83d6c56a898158449a7ee5d0c20318545b3a46c add git.txt file
+92a6cd38b74b15d9597d7753490372bac297c954 wrote a readme file
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ pwd
+/e/work
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ ls
+git.txt  m1.py  m2.py  m3.py  new.py  problem1.py  readme.txt  var.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ touch test.txt
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ ls
+git.txt  m1.py  m2.py  m3.py  new.py  problem1.py  readme.txt  test.txt  var.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ vi test.txt
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ cat test.txt
+hello world
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ cat test.txt
+hello world
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ tac test.txt
+hello world
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ more test.txt
+bash: more: command not found
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ nl test.txt
+     1  hello world
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ more test.txt
+bash: more: command not found
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ head -n 2 test.txt
+hello world
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ ls
+git.txt  m1.py  m2.py  m3.py  new.py  problem1.py  readme.txt  test.txt  var.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git diff
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git add test.txt
+warning: LF will be replaced by CRLF in test.txt.
+The file will have its original line endings in your working directory
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git commit -m "add test.txt files"
+[master b14a220] add test.txt files
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ ls
+git.txt  m1.py  m2.py  m3.py  new.py  problem1.py  readme.txt  test.txt  var.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git log -pretty=oneline
+fatal: unrecognized argument: -pretty=oneline
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git log --pretty=oneline
+b14a220f0df0e4731feee2c13be9f04969a0d599 (HEAD -> master) add test.txt files
+b734ff8573248b1b9ff2aeade095a89d87668389 add some urls
+addf17e9b3464c6e44744030914d24a234e84980 study stage concept
+d8be11b9ac797856c0d664d4d6a203eab8e65d27 add 2 word
+2411fe9e30bbbdb8dd74147121b12019749c69fe add 5 .py files
+e6b53edcfc5d1b2081c7b19c7ec211418fec8a55 减少了两句话
+8d939c2a5869851cb97884416e56589205a520e1 changed readme.txt and git.txt
+f83d6c56a898158449a7ee5d0c20318545b3a46c add git.txt file
+92a6cd38b74b15d9597d7753490372bac297c954 wrote a readme file
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ ls
+git.txt  m1.py  m2.py  m3.py  new.py  problem1.py  readme.txt  test.txt  var.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ rm test.txt
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git restore test.txt
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ ls
+git.txt  m1.py  m2.py  m3.py  new.py  problem1.py  readme.txt  test.txt  var.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ ssh-keygen -t rsa -C "starhqking@163.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/HE/.ssh/id_rsa): /e/work/id_rsa.txt
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /e/work/id_rsa.txt.
+Your public key has been saved in /e/work/id_rsa.txt.pub.
+The key fingerprint is:
+SHA256:afIokCQZxXgIImNRD3vGM6uBmqvdnp+gjI/g+CE8MFE starhqking@163.com
+The key's randomart image is:
++---[RSA 3072]----+
+|BBEo             |
+|*=o =            |
+|+... B           |
+| +..o +  .       |
+|o.o. .. S        |
+|+o .o  =         |
+|=o..o . .        |
+|+B.+ + .         |
+|B+*.+.o          |
++----[SHA256]-----+
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ ls
+git.txt  id_rsa.txt  id_rsa.txt.pub  m1.py  m2.py  m3.py  new.py  problem1.py  readme.txt  test.txt  var.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ cat id_rsa.txt
+-----BEGIN OPENSSH PRIVATE KEY-----
+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
+-----END OPENSSH PRIVATE KEY-----
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ mkdir githublogin
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ cd github*
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ pwd
+/e/work/githublogin
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ vi readme.txt
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ cd ..
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ pwd
+/e/work
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ ls
+git.txt  githublogin/  id_rsa.txt  id_rsa.txt.pub  m1.py  m2.py  m3.py  new.py  problem1.py  readme.txt  test.txt  var.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ mv id_rsa.txt.pub  /e/work/githublogin/
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ ls
+git.txt  githublogin/  id_rsa.txt  m1.py  m2.py  m3.py  new.py  problem1.py  readme.txt  test.txt  var.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ mv id_rsa.txt  /e/work/githublogin/
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ ls -l
+total 12
+-rw-r--r-- 1 HE 197121  372 11月 29 01:33 git.txt
+drwxr-xr-x 1 HE 197121    0 11月 29 15:29 githublogin/
+-rw-r--r-- 1 HE 197121  571 11月 29 00:20 m1.py
+-rw-r--r-- 1 HE 197121 1286 11月 29 01:04 m2.py
+-rw-r--r-- 1 HE 197121  342 11月 29 00:40 m3.py
+-rw-r--r-- 1 HE 197121   80 11月 29 04:07 new.py
+-rw-r--r-- 1 HE 197121  206 11月 28 23:47 problem1.py
+-rw-r--r-- 1 HE 197121  114 11月 29 02:05 readme.txt
+-rw-r--r-- 1 HE 197121   13 11月 29 15:20 test.txt
+-rw-r--r-- 1 HE 197121  142 11月 28 23:45 var.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        githublogin/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git diff
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git add githublogin/
+warning: LF will be replaced by CRLF in githublogin/id_rsa.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in githublogin/id_rsa.txt.pub.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in githublogin/readme.txt.
+The file will have its original line endings in your working directory
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   githublogin/id_rsa.txt
+        new file:   githublogin/id_rsa.txt.pub
+        new file:   githublogin/readme.txt
+
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git commit -m "add dir githublogin/ and created some pub key in it,remember Enter file in which to save the key (/c/Users/HE/.ssh/id_rsa): /e/work/id_rsa.txt"
+[master 984705b] add dir githublogin/ and created some pub key in it,remember Enter file in which to save the key (/c/Users/HE/.ssh/id_rsa): /e/work/id_rsa.txt
+ 3 files changed, 61 insertions(+)
+ create mode 100644 githublogin/id_rsa.txt
+ create mode 100644 githublogin/id_rsa.txt.pub
+ create mode 100644 githublogin/readme.txt
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git log
+commit 984705b4ed59808d2161c2b43006b79476af3a0e (HEAD -> master)
+Author: Alex He <starhqking@163.com>
+Date:   Fri Nov 29 15:32:15 2019 +0800
+
+    add dir githublogin/ and created some pub key in it,remember Enter file in which to save the key (/c/Users/HE/.ssh/id_rsa): /e/work/id_rsa.txt
+
+commit b14a220f0df0e4731feee2c13be9f04969a0d599
+Author: Alex He <starhqking@163.com>
+Date:   Fri Nov 29 15:18:52 2019 +0800
+
+    add test.txt files
+
+commit b734ff8573248b1b9ff2aeade095a89d87668389
+Author: Alex He <starhqking@163.com>
+Date:   Fri Nov 29 15:10:29 2019 +0800
+
+    add some urls
+
+commit addf17e9b3464c6e44744030914d24a234e84980
+Author: Alex He <starhqking@163.com>
+Date:   Fri Nov 29 02:07:13 2019 +0800
+
+    study stage concept
+
+commit d8be11b9ac797856c0d664d4d6a203eab8e65d27
+Author: Alex He <starhqking@163.com>
+Date:   Fri Nov 29 01:53:46 2019 +0800
+
+    add 2 word
+
+commit 2411fe9e30bbbdb8dd74147121b12019749c69fe
+Author: Alex He <starhqking@163.com>
+Date:   Fri Nov 29 01:47:18 2019 +0800
+
+    add 5 .py files
+
+commit e6b53edcfc5d1b2081c7b19c7ec211418fec8a55
+Author: Alex He <starhqking@163.com>
+Date:   Fri Nov 29 01:43:48 2019 +0800
+
+    减少了两句话
+
+commit 8d939c2a5869851cb97884416e56589205a520e1
+Author: Alex He <starhqking@163.com>
+Date:   Fri Nov 29 01:40:09 2019 +0800
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git log --pretty=oneline
+984705b4ed59808d2161c2b43006b79476af3a0e (HEAD -> master) add dir githublogin/ and created some pub key in it,remember Enter file in which to save the key (/c/Users/HE/.ssh/id_rsa): /e/work/id_rsa.txt
+b14a220f0df0e4731feee2c13be9f04969a0d599 add test.txt files
+b734ff8573248b1b9ff2aeade095a89d87668389 add some urls
+addf17e9b3464c6e44744030914d24a234e84980 study stage concept
+d8be11b9ac797856c0d664d4d6a203eab8e65d27 add 2 word
+2411fe9e30bbbdb8dd74147121b12019749c69fe add 5 .py files
+e6b53edcfc5d1b2081c7b19c7ec211418fec8a55 减少了两句话
+8d939c2a5869851cb97884416e56589205a520e1 changed readme.txt and git.txt
+f83d6c56a898158449a7ee5d0c20318545b3a46c add git.txt file
+92a6cd38b74b15d9597d7753490372bac297c954 wrote a readme file
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ pwd
+/e/work
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ cd github*
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ ls
+id_rsa.txt  id_rsa.txt.pub  readme.txt
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ cat  id_rsa.txt.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCpDDfB1q1Kd7PKld2m0LlxGsonI8krbG7uJrE6q8FjQWiXZPTLfNxdQHQHmr8mSvm4oYLtOwL7MWN8b/0ldtVUBCH2Pd28GlU/Zsb6sMXiGYAEAo5h+A9eva3SHg1xHAp+Df4bPqHJZJlCbPbNavHNtMBqt2RHWcUkXZY0D6JkDifs4XyxUS2kmWscZKLAss0Ls4HYzr8qBcykatjDxzuBIImqm4IKO/mKS7nyVl5wpJJBTpOf3zWYuZEH5xfKFCe8IVd+cHysarIseYM4n6DVRAIX376l9NV9K4d9EYJBQXw5G7ItZ5FM9sJMEYjpkUcA5CfFaIdVPFXQ1SQnsU6C+tzZTzQ0aIi+kCdtefGZevVLsdbZyxNqYraOG2QTDAK0B0muxkT8leYoyKIQ/zMaVERj+mTc3IKzyzd+NrYQVFqVlXBOSmhRTdT7aJAPcebtGtMocYGkuyM5kuysrRm4vFXbt7m982eGT1JDHDyk7NkzgCT7By5mBCKfk5il+V8= starhqking@163.com
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ cd /c/users/He
+
+HE@DESKTOP-HAM36CU MINGW64 /c/users/He (master)
+$ pwd
+/c/users/He
+
+HE@DESKTOP-HAM36CU MINGW64 /c/users/He (master)
+$ ls
+ 「开始」菜单@        Evernote/               NTUSER.DAT{e4104314-bf1f-11e9-b9aa-488ad288415e}.TxR.0.regtrans-ms                            'Saved Games'/
+'3D Objects'/         Favorites/              NTUSER.DAT{e4104314-bf1f-11e9-b9aa-488ad288415e}.TxR.1.regtrans-ms                             Searches/
+ AppData/             Funshion/               NTUSER.DAT{e4104314-bf1f-11e9-b9aa-488ad288415e}.TxR.2.regtrans-ms                             SendTo@
+'Application Data'@   Links/                  NTUSER.DAT{e4104314-bf1f-11e9-b9aa-488ad288415e}.TxR.blf                                       skb.kc
+ CMB/                'Local Settings'@        NTUSER.DAT{e4104315-bf1f-11e9-b9aa-488ad288415e}.TM.blf                                        source/
+ Contacts/            MicrosoftEdgeBackups/   NTUSER.DAT{e4104315-bf1f-11e9-b9aa-488ad288415e}.TMContainer00000000000000000001.regtrans-ms   Templates@
+ Cookies@             Music/                  NTUSER.DAT{e4104315-bf1f-11e9-b9aa-488ad288415e}.TMContainer00000000000000000002.regtrans-ms   UIDowner/
+ Desktop/            'My Documents'@          ntuser.ini                                                                                     Videos/
+ Documents/           NetHood@                OneDrive/                                                                                      wc/
+ Downloads/           NTUSER.DAT              Pictures/                                                                                     'Yinxiang Biji'/
+ eclipse/             ntuser.dat.LOG1         PrintHood@
+ eclipse-installer/   ntuser.dat.LOG2         Recent@
+
+HE@DESKTOP-HAM36CU MINGW64 /c/users/He (master)
+$ cd .ssh
+bash: cd: .ssh: No such file or directory
+
+HE@DESKTOP-HAM36CU MINGW64 /c/users/He (master)
+$ cd /c/Users/HE/.ssh/id_rsa
+bash: cd: /c/Users/HE/.ssh/id_rsa: No such file or directory
+
+HE@DESKTOP-HAM36CU MINGW64 /c/users/He (master)
+$ cd /c/Users/HE/.ssh/
+bash: cd: /c/Users/HE/.ssh/: No such file or directory
+
+HE@DESKTOP-HAM36CU MINGW64 /c/users/He (master)
+$
+
+HE@DESKTOP-HAM36CU MINGW64 /c/users/He (master)
+$ git remote add origin git@github.com:wuqing1982/learngit.git
+
+HE@DESKTOP-HAM36CU MINGW64 /c/users/He (master)
+$ cd gitgub*
+bash: cd: gitgub*: No such file or directory
+
+HE@DESKTOP-HAM36CU MINGW64 /c/users/He (master)
+$ pwd
+/c/users/He
+
+HE@DESKTOP-HAM36CU MINGW64 /c/users/He (master)
+$ cd /e/work/githublogin
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ pwd
+/e/work/githublogin
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ touch study1.txt
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ vi study1.txt
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        study1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git add study1.txt
+warning: LF will be replaced by CRLF in githublogin/study1.txt.
+The file will have its original line endings in your working directory
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git commit -m "how to connect with your github account in study1.txt"
+[master 53809f4] how to connect with your github account in study1.txt
+ 1 file changed, 2 insertions(+)
+ create mode 100644 githublogin/study1.txt
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git remote add origin git@github.com:wuqing1982/learngit.git
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git push -u origin master
+The authenticity of host 'github.com (13.229.188.59)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,13.229.188.59' (RSA) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ pwd
+/e/work/githublogin
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ vi study1.txt
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ vi study1.txt
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   study1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git add study1.txt
+warning: LF will be replaced by CRLF in githublogin/study1.txt.
+The file will have its original line endings in your working directory
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git commit -m "log error  in study1.txt"
+[master 8d6fc9b] log error  in study1.txt
+ 1 file changed, 35 insertions(+)
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git push -u origin master
+Warning: Permanently added the RSA host key for IP address '52.74.223.119' to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git push --set-upstream origin master
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ pwd
+/e/work/githublogin
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ ls
+id_rsa.txt  id_rsa.txt.pub  readme.txt  study1.txt
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ cat *.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCpDDfB1q1Kd7PKld2m0LlxGsonI8krbG7uJrE6q8FjQWiXZPTLfNxdQHQHmr8mSvm4oYLtOwL7MWN8b/0ldtVUBCH2Pd28GlU/Zsb6sMXiGYAEAo5h+A9eva3SHg1xHAp+Df4bPqHJZJlCbPbNavHNtMBqt2RHWcUkXZY0D6JkDifs4XyxUS2kmWscZKLAss0Ls4HYzr8qBcykatjDxzuBIImqm4IKO/mKS7nyVl5wpJJBTpOf3zWYuZEH5xfKFCe8IVd+cHysarIseYM4n6DVRAIX376l9NV9K4d9EYJBQXw5G7ItZ5FM9sJMEYjpkUcA5CfFaIdVPFXQ1SQnsU6C+tzZTzQ0aIi+kCdtefGZevVLsdbZyxNqYraOG2QTDAK0B0muxkT8leYoyKIQ/zMaVERj+mTc3IKzyzd+NrYQVFqVlXBOSmhRTdT7aJAPcebtGtMocYGkuyM5kuysrRm4vFXbt7m982eGT1JDHDyk7NkzgCT7By5mBCKfk5il+V8= starhqking@163.com
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git push -u origin master
+Warning: Permanently added the RSA host key for IP address '13.250.177.223' to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ ssh-keygen -t rsa -C "starhqking@163.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/HE/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/HE/.ssh/id_rsa.
+Your public key has been saved in /c/Users/HE/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:8hSr7i9uImzaV3HiGi4M8b3CO+MwYP/+tH9nG8Cq50w starhqking@163.com
+The key's randomart image is:
++---[RSA 3072]----+
+|                 |
+|                 |
+|        .        |
+|.     o .o.      |
+|.+ . ..+S  o     |
+|+ o o o=  . .    |
+|o= o =...E   .   |
+| +@ B.+ =. . o.  |
+|.++O.B=*=+. o..  |
++----[SHA256]-----+
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDp50CZosu/XP4eAkb7DJY1Or4lzjUe8yR21dbPgZqLjNj6n903YpQr3DnEEhQba2ii25hpCFJKwfNRJtP3yDrdoZhjAggCRUGCZ9kWfamW+KCUFkZVjUBaCeTbYAEePuswCUcLYzBFNKfGIihMMog8laeyPcGMefEL4PtchaiA6HAQUyzl5exBgj3XC4Q3nFZkswJ7/jwgfwsOt9J5RE/OKQR24rPaMkVU2hrK5amPoYqxxgQB73DJRv+abGFcE1wfasFc6J/ghpYfTqh8tb5r9OgXqTsJ07VRpd/IqszHr4zZ8CRHkpwW0AFeo9oQtMrp5LtsBBDWlFzEc/l6U16HzYJe8emsgW58i6uLEUfK84mdEs6+uUbFRt3nLTy2+bvyKNSbycPQj1lG3u83LPqZLxJjxcDNr9vjer5yY3g6fki1lCK8OFOpv3Eotfllpc26yJlEBcukQdlVBy1X8i/+xUK9+cM8gBE2Ce2yGvR/yNcSPefHjQ2MwONoKaou6eM= starhqking@163.com
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git push -u origin master
+To github.com:wuqing1982/learngit.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:wuqing1982/learngit.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git push --set-upstream origin master
+To github.com:wuqing1982/learngit.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:wuqing1982/learngit.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$
+
