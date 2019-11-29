@@ -1,2 +1,37 @@
 git remote add origin git@github.com:wuqing1982/learngit.git
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git remote add origin git@github.com:wuqing1982/learngit.git
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git push -u origin master
+The authenticity of host 'github.com (13.229.188.59)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,13.229.188.59' (RSA) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
 
