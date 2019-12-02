@@ -1,0 +1,511 @@
+
+HE@DESKTOP-HAM36CU MINGW64 ~ (master)
+$ pwd
+/c/Users/HE
+
+HE@DESKTOP-HAM36CU MINGW64 ~ (master)
+$ cd /e/work
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ pwd
+/e/work
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   githublogin/study3.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        snake.py
+        snake.py.bak
+        snakenow.py
+
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ rm *.bak
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   githublogin/study3.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        snake.py
+        snakenow.py
+
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git add snake.py snakenow.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   githublogin/study3.txt
+        new file:   snake.py
+        new file:   snakenow.py
+
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git commit -m "study3.txt snak.py snakenow.py class example add files..."
+[master ad39671] study3.txt snak.py snakenow.py class example add files...
+ 3 files changed, 114 insertions(+)
+ create mode 100644 githublogin/study3.txt
+ create mode 100644 snake.py
+ create mode 100644 snakenow.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ cd git*
+bash: cd: too many arguments
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ pwd
+/e/work
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ ls
+git.txt       m1.py  m3.py   problem1.py  snake.py     test.txt
+githublogin/  m2.py  new.py  readme.txt   snakenow.py  var.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ cd github*
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ ls
+id_rsa.txt  id_rsa.txt.pub  readme.txt  studay2.txt  study1.txt  study3.txt
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ vi study3.txt
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ cat study3.txt
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git push -u origin master
+To github.com:wuqing1982/learngit.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:wuqing1982/learngit.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git push -f -u origin master
+Enumerating objects: 51, done.
+Counting objects: 100% (51/51), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (47/47), done.
+Writing objects: 100% (51/51), 15.94 KiB | 1.23 MiB/s, done.
+Total 51 (delta 14), reused 0 (delta 0)
+remote: Resolving deltas: 100% (14/14), done.
+To github.com:wuqing1982/learngit.git
+ + 2b27c10...5ae53b3 master -> master (forced update)
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$  git push -u origin master
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.52 KiB | 779.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+To github.com:wuqing1982/learngit.git
+   5ae53b3..ad39671  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../person.py
+        ../person.py.bak
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ pwd
+/e/work/githublogin
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work/githublogin (master)
+$ cd ..
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        person.py
+        person.py.bak
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ rm *.bak
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        person.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git add person.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   person.py
+
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git commit -m "add person.py..."
+[master 4ede0fc] add person.py...
+ 1 file changed, 46 insertions(+)
+ create mode 100644 person.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git log
+commit 4ede0fc9d6e07cb9df3de4a2d106d07101979261 (HEAD -> master)
+Author: Alex He <starhqking@163.com>
+Date:   Mon Dec 2 23:13:10 2019 +0800
+
+    add person.py...
+
+commit ad39671aba42ea1e40e9358d7e75fea393319c1d (origin/master)
+Author: Alex He <starhqking@163.com>
+Date:   Mon Dec 2 23:02:42 2019 +0800
+
+    study3.txt snak.py snakenow.py class example add files...
+
+commit 5ae53b3bbbc5ee4adbcb077bfa88fd4b4b195fc0
+Author: Alex He <starhqking@163.com>
+Date:   Fri Nov 29 16:11:33 2019 +0800
+
+    save cmd content in studay2.txt
+
+commit 8d6fc9bbad20e2ab80941f28e014a4adb26320f8
+Author: Alex He <starhqking@163.com>
+Date:   Fri Nov 29 15:50:33 2019 +0800
+
+    log error  in study1.txt
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git log --pretty=oneline
+4ede0fc9d6e07cb9df3de4a2d106d07101979261 (HEAD -> master) add person.py...
+ad39671aba42ea1e40e9358d7e75fea393319c1d (origin/master) study3.txt snak.py snakenow.py class example add files...
+5ae53b3bbbc5ee4adbcb077bfa88fd4b4b195fc0 save cmd content in studay2.txt
+8d6fc9bbad20e2ab80941f28e014a4adb26320f8 log error  in study1.txt
+53809f4c49366d83e496c67efd991b0dff207a2c how to connect with your github account in study1.txt
+984705b4ed59808d2161c2b43006b79476af3a0e add dir githublogin/ and created some pub key in it,remember Enter file in which to save the key (/c/Users/HE/.ssh/id_rsa): /e/work/id_rsa.txt
+b14a220f0df0e4731feee2c13be9f04969a0d599 add test.txt files
+b734ff8573248b1b9ff2aeade095a89d87668389 add some urls
+addf17e9b3464c6e44744030914d24a234e84980 study stage concept
+d8be11b9ac797856c0d664d4d6a203eab8e65d27 add 2 word
+2411fe9e30bbbdb8dd74147121b12019749c69fe add 5 .py files
+e6b53edcfc5d1b2081c7b19c7ec211418fec8a55 减少了两句话
+8d939c2a5869851cb97884416e56589205a520e1 changed readme.txt and git.txt
+f83d6c56a898158449a7ee5d0c20318545b3a46c add git.txt file
+92a6cd38b74b15d9597d7753490372bac297c954 wrote a readme file
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 713 bytes | 356.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:wuqing1982/learngit.git
+   ad39671..4ede0fc  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   person.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        person.py.bak
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ rm *bak
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   person.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git log --pretty=oneline
+4ede0fc9d6e07cb9df3de4a2d106d07101979261 (HEAD -> master, origin/master) add person.py...
+ad39671aba42ea1e40e9358d7e75fea393319c1d study3.txt snak.py snakenow.py class example add files...
+5ae53b3bbbc5ee4adbcb077bfa88fd4b4b195fc0 save cmd content in studay2.txt
+8d6fc9bbad20e2ab80941f28e014a4adb26320f8 log error  in study1.txt
+53809f4c49366d83e496c67efd991b0dff207a2c how to connect with your github account in study1.txt
+984705b4ed59808d2161c2b43006b79476af3a0e add dir githublogin/ and created some pub key in it,remember Enter file in which to save the key (/c/Users/HE/.ssh/id_rsa): /e/work/id_rsa.txt
+b14a220f0df0e4731feee2c13be9f04969a0d599 add test.txt files
+b734ff8573248b1b9ff2aeade095a89d87668389 add some urls
+addf17e9b3464c6e44744030914d24a234e84980 study stage concept
+d8be11b9ac797856c0d664d4d6a203eab8e65d27 add 2 word
+2411fe9e30bbbdb8dd74147121b12019749c69fe add 5 .py files
+e6b53edcfc5d1b2081c7b19c7ec211418fec8a55 减少了两句话
+8d939c2a5869851cb97884416e56589205a520e1 changed readme.txt and git.txt
+f83d6c56a898158449a7ee5d0c20318545b3a46c add git.txt file
+92a6cd38b74b15d9597d7753490372bac297c954 wrote a readme file
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   person.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git add person.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   person.py
+
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git restore --staged person.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   person.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git add person.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   person.py
+
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git reset HEAD person.py
+Unstaged changes after reset:
+M       person.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   person.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git log --pretty oneline
+fatal: ambiguous argument 'oneline': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git log
+commit 4ede0fc9d6e07cb9df3de4a2d106d07101979261 (HEAD -> master, origin/master)
+Author: Alex He <starhqking@163.com>
+Date:   Mon Dec 2 23:13:10 2019 +0800
+
+    add person.py...
+
+commit ad39671aba42ea1e40e9358d7e75fea393319c1d
+Author: Alex He <starhqking@163.com>
+Date:   Mon Dec 2 23:02:42 2019 +0800
+
+    study3.txt snak.py snakenow.py class example add files...
+
+commit 5ae53b3bbbc5ee4adbcb077bfa88fd4b4b195fc0
+Author: Alex He <starhqking@163.com>
+Date:   Fri Nov 29 16:11:33 2019 +0800
+
+    save cmd content in studay2.txt
+
+commit 8d6fc9bbad20e2ab80941f28e014a4adb26320f8
+Author: Alex He <starhqking@163.com>
+Date:   Fri Nov 29 15:50:33 2019 +0800
+
+    log error  in study1.txt
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git log --pretty=oneline
+4ede0fc9d6e07cb9df3de4a2d106d07101979261 (HEAD -> master, origin/master) add person.py...
+ad39671aba42ea1e40e9358d7e75fea393319c1d study3.txt snak.py snakenow.py class example add files...
+5ae53b3bbbc5ee4adbcb077bfa88fd4b4b195fc0 save cmd content in studay2.txt
+8d6fc9bbad20e2ab80941f28e014a4adb26320f8 log error  in study1.txt
+53809f4c49366d83e496c67efd991b0dff207a2c how to connect with your github account in study1.txt
+984705b4ed59808d2161c2b43006b79476af3a0e add dir githublogin/ and created some pub key in it,remember Enter file in which to save the key (/c/Users/HE/.ssh/id_rsa): /e/work/id_rsa.txt
+b14a220f0df0e4731feee2c13be9f04969a0d599 add test.txt files
+b734ff8573248b1b9ff2aeade095a89d87668389 add some urls
+addf17e9b3464c6e44744030914d24a234e84980 study stage concept
+d8be11b9ac797856c0d664d4d6a203eab8e65d27 add 2 word
+2411fe9e30bbbdb8dd74147121b12019749c69fe add 5 .py files
+e6b53edcfc5d1b2081c7b19c7ec211418fec8a55 减少了两句话
+8d939c2a5869851cb97884416e56589205a520e1 changed readme.txt and git.txt
+f83d6c56a898158449a7ee5d0c20318545b3a46c add git.txt file
+92a6cd38b74b15d9597d7753490372bac297c954 wrote a readme file
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   person.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git restore person.py
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git log --pretty=oneline
+4ede0fc9d6e07cb9df3de4a2d106d07101979261 (HEAD -> master, origin/master) add person.py...
+ad39671aba42ea1e40e9358d7e75fea393319c1d study3.txt snak.py snakenow.py class example add files...
+5ae53b3bbbc5ee4adbcb077bfa88fd4b4b195fc0 save cmd content in studay2.txt
+8d6fc9bbad20e2ab80941f28e014a4adb26320f8 log error  in study1.txt
+53809f4c49366d83e496c67efd991b0dff207a2c how to connect with your github account in study1.txt
+984705b4ed59808d2161c2b43006b79476af3a0e add dir githublogin/ and created some pub key in it,remember Enter file in which to save the key (/c/Users/HE/.ssh/id_rsa): /e/work/id_rsa.txt
+b14a220f0df0e4731feee2c13be9f04969a0d599 add test.txt files
+b734ff8573248b1b9ff2aeade095a89d87668389 add some urls
+addf17e9b3464c6e44744030914d24a234e84980 study stage concept
+d8be11b9ac797856c0d664d4d6a203eab8e65d27 add 2 word
+2411fe9e30bbbdb8dd74147121b12019749c69fe add 5 .py files
+e6b53edcfc5d1b2081c7b19c7ec211418fec8a55 减少了两句话
+8d939c2a5869851cb97884416e56589205a520e1 changed readme.txt and git.txt
+f83d6c56a898158449a7ee5d0c20318545b3a46c add git.txt file
+92a6cd38b74b15d9597d7753490372bac297c954 wrote a readme file
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git clone git@github.com:wuqing1982/gitskill.git
+Cloning into 'gitskill'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$ git clone git@github.com:wuqing1982/gitskills.git
+Cloning into 'gitskills'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+HE@DESKTOP-HAM36CU MINGW64 /e/work (master)
+$
+
